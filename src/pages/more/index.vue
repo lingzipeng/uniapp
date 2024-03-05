@@ -1,26 +1,24 @@
 <template>
   <view>
     <view class="uni-margin-wrap">
-      <uni-card :is-shadow="false" is-full>
-        <swiper
-          class="swiper"
-          circular
-          :indicator-dots="indicatorDots"
-          :autoplay="autoplay"
-          :interval="interval"
-          :duration="duration"
-        >
-          <swiper-item>
-            <image src="../static/pic/sc18.jpg" mode="widthFix" />
-          </swiper-item>
-          <swiper-item>
-            <image src="../static/pic/sc19.jpg" mode="widthFix" />
-          </swiper-item>
-          <swiper-item>
-            <image src="../static/pic/sc20.jpg" mode="widthFix" />
-          </swiper-item>
-        </swiper>
-      </uni-card>
+      <swiper
+        class="swiper"
+        circular
+        :indicator-dots="indicatorDots"
+        :autoplay="autoplay"
+        :interval="interval"
+        :duration="duration"
+      >
+        <swiper-item>
+          <image src="../static/pic/sc18.jpg" mode="widthFix" />
+        </swiper-item>
+        <swiper-item>
+          <image src="../static/pic/sc19.jpg" mode="widthFix" />
+        </swiper-item>
+        <swiper-item>
+          <image src="../static/pic/sc20.jpg" mode="widthFix" />
+        </swiper-item>
+      </swiper>
     </view>
   </view>
 </template>
@@ -34,8 +32,10 @@ const duration = ref(500);
 </script>
 <style lang="scss" scoped>
 .uni-margin-wrap {
+  position: absolute;
+  right: 40rpx;
   width: 690rpx;
-  width: 100%;
+  width: 90%;
 }
 .swiper {
   height: 300rpx;

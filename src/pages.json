@@ -20,15 +20,9 @@
 			}
 		},
 		{
-			"path": "pages/cart/index",
+			"path": "pages/more/index",
 			"style": {
-				"navigationBarTitleText": "成绩"
-			}
-		},
-		{
-			"path": "pages/category/index",
-			"style": {
-				"navigationBarTitleText": "消息"
+				"navigationBarTitleText": "更多"
 			}
 		},
 		{
@@ -57,14 +51,8 @@
 				"selectedIconPath": "static/tabs/home_selected.png"
 			},
 			{
-				"text": "消息",
-				"pagePath": "pages/category/index",
-				"iconPath": "static/tabs/category_default.png",
-				"selectedIconPath": "static/tabs/category_selected.png"
-			},
-			{
-				"text": "成绩",
-				"pagePath": "pages/cart/index",
+				"text": "更多",
+				"pagePath": "pages/more/index",
 				"iconPath": "static/tabs/cart_default.png",
 				"selectedIconPath": "static/tabs/cart_selected.png"
 			},

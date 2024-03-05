@@ -1,26 +1,25 @@
+<!-- 本示例未包含完整css，获取外链css请参考上文，在hello uni-app项目中查看 -->
 <template>
   <view>
     <view class="uni-margin-wrap">
-      <uni-card :is-shadow="false" is-full>
-        <swiper
-          class="swiper"
-          circular
-          :indicator-dots="indicatorDots"
-          :autoplay="autoplay"
-          :interval="interval"
-          :duration="duration"
-        >
-          <swiper-item>
-            <image src="../static/pic/sc18.jpg" mode="widthFix" />
-          </swiper-item>
-          <swiper-item>
-            <image src="../static/pic/sc19.jpg" mode="widthFix" />
-          </swiper-item>
-          <swiper-item>
-            <image src="../static/pic/sc20.jpg" mode="widthFix" />
-          </swiper-item>
-        </swiper>
-      </uni-card>
+      <swiper
+        class="swiper"
+        circular
+        :indicator-dots="indicatorDots"
+        :autoplay="autoplay"
+        :interval="interval"
+        :duration="duration"
+      >
+        <swiper-item>
+          <view class="swiper-item uni-bg-red">A</view>
+        </swiper-item>
+        <swiper-item>
+          <view class="swiper-item uni-bg-green">B</view>
+        </swiper-item>
+        <swiper-item>
+          <view class="swiper-item uni-bg-blue">C</view>
+        </swiper-item>
+      </swiper>
     </view>
   </view>
 </template>
