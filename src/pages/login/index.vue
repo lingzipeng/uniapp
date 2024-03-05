@@ -10,7 +10,7 @@
 
 				<view class="login-form-items">
 					<view class="login-form-items-title">登录密码</view>
-					<input type="password" class="login-input" placeholder="请输入登录密码" />
+					<input class="login-input" placeholder="请输入登录密码" />
 				</view>
 
 			</view>

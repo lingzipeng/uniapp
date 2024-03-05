@@ -16,7 +16,7 @@
       </view>
       <view v-else class="noLogin">
         <image
-          src="../../static/my/weixin.png"
+          src="../static/pic/sc18.jpg"
           mode="widthFix"
           @click="login"
         ></image>
