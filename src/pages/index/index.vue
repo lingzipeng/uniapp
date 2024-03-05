@@ -1,5 +1,12 @@
 <template>
   <view>
+      <uni-notice-bar
+        single
+        scrollable
+        color="#2979FF"
+        background-color="#EAF2FF"
+        text="uni-app是一个使用Vue.js开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序、快应用等多个平台。"
+      />
     <view class="uni-margin-wrap">
       <uni-card :is-shadow="false" is-full>
         <swiper
@@ -22,11 +29,19 @@
         </swiper>
       </uni-card>
     </view>
+    <view>
+      <word />
+      <pic />
+      <compute />
+    </view>
   </view>
 </template>
 
 <script setup lang="ts">
 import { ref } from "vue";
+import word from "@/component/word.vue";
+import pic from "@/component/pic.vue";
+import compute from "@/component/compute.vue";
 const indicatorDots = ref(true);
 const autoplay = ref(true);
 const interval = ref(2000);
