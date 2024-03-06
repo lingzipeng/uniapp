@@ -51,6 +51,12 @@
 			"style": {
 				"navigationBarTitleText": "日历"
 			}
+		},
+		{
+			"path": "pages/function/stopwatch",
+			"style": {
+				"navigationBarTitleText": "秒表"
+			}
 		}
 	],
 	"globalStyle": {
