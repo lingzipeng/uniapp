@@ -2,18 +2,33 @@
   <uni-card>
     <uni-section title="图片处理" type="line">
       <uni-grid :column="3" :highlight="true">
-        <uni-grid-item v-for="(item, index) in 6" :index="index" :key="index">
-          <view class="grid-item-box" style="background-color: #fff">
-            <uni-icons type="image" :size="30" color="#777" />
-            <text class="text">信息</text>
-          </view>
+        <uni-grid-item v-for="func in funcs" :key="func.id">
+          <navigator
+            :url="`/pages/function/${func.id}`"
+            hover-class="navigator-hover"
+          >
+            <view class="grid-item-box" style="background-color: #fff">
+              <uni-icons type="image" :size="30" color="#777" />
+              <text class="text">{{ func.function }}</text>
+            </view>
+          </navigator>
         </uni-grid-item>
       </uni-grid>
     </uni-section>
   </uni-card>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { reactive } from "vue";
+const funcs = reactive([
+  { id: "article", function: "掷骰子" },
+  { id: "calculator", function: "指南针" },
+  { id: "calendar", function: "生成二维码" },
+  { id: "stopwatch", function: "图像取色" },
+  { id: "friend", function: "随机数字" },
+  { id: "shock", function: "帮助和客服" },
+]);
+</script>
 
 <style lang="scss" scoped>
 .image {

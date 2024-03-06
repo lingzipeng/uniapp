@@ -21,12 +21,12 @@
 <script setup lang="ts">
 import { reactive } from "vue";
 const funcs = reactive([
-  { id: "article", function: "文章" },
+  { id: "article", function: "文章评论" },
   { id: "calculator", function: "计算器" },
   { id: "calendar", function: "日历" },
   { id: "stopwatch", function: "倒计时" },
-  { id: "friend", function: "朋友圈" },
-  { id: "video", function: "视频" },
+  { id: "friend", function: "模拟来电" },
+  { id: "shock", function: "手机震动" },
 ]);
 </script>
 

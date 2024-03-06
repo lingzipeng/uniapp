@@ -57,6 +57,18 @@
 			"style": {
 				"navigationBarTitleText": "秒表"
 			}
+		},
+		{
+			"path": "pages/function/call",
+			"style": {
+				"navigationBarTitleText": "模拟来电"
+			}
+		},
+		{
+			"path": "pages/function/shock",
+			"style": {
+				"navigationBarTitleText": "震动"
+			}
 		}
 	],
 	"globalStyle": {
