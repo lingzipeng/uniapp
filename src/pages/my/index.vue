@@ -5,23 +5,16 @@
     </view>
     <!-- 内容 -->
     <view class="content_botton">
-      <view class="content_info" v-if="userinfo">
+      <view class="content_info">
         <image src="../static/pic/sc18.jpg" mode="widthFix" />
         <view class="username"> 张三 </view>
         <view class="select">
-          <view>微信号：12345</view>
+          <view>微信号：123456789</view>
           <view>二维码</view>
 		  <uni-icons @click="erweima" type="forward" size="15"></uni-icons>
         </view>
       </view>
-      <view v-else class="noLogin">
-        <image
-          src="../static/pic/sc18.jpg"
-          mode="widthFix"
-          @click="login"
-        ></image>
-        <view class="">点击图片登录</view>
-      </view>
+      <!--功能区-->
       <view class="other">
         <view class="other_addres" @click="addAdress">
           <view>服务</view>

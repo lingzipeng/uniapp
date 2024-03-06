@@ -1,11 +1,6 @@
 <template>
   <view class="calendar-content" v-if="showCalendar">
-    <text class="example-info"
-      >日历组件可以查看日期，选择任意范围内的日期，打点操作。常用场景如：酒店日期预订、火车机票选择购买日期、上下班打卡等。</text
-    >
-    <uni-section title="插入模式" type="line"></uni-section>
     <view>
-      <!-- 插入模式 -->
       <uni-calendar
         class="uni-calendar--hook"
         :selected="info.selected"
@@ -14,25 +9,6 @@
         @monthSwitch="monthSwitch"
       />
     </view>
-    <uni-section class="hideOnPc" title="弹出模式" type="line"></uni-section>
-    <view class="example-body hideOnPc">
-      <button class="calendar-button" type="button" @click="open">
-        打开日历
-      </button>
-    </view>
-    <uni-calendar
-      ref="calendar"
-      class="uni-calendar--hook"
-      :clear-date="true"
-      :date="info.date"
-      :insert="info.insert"
-      :lunar="info.lunar"
-      :startDate="info.startDate"
-      :endDate="info.endDate"
-      :range="info.range"
-      @confirm="confirm"
-      @close="close"
-    />
   </view>
 </template>
 <script>
