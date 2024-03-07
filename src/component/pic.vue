@@ -1,6 +1,6 @@
 <template>
   <uni-card>
-    <uni-section title="图片处理" type="line">
+    <uni-section title="工具" type="line">
       <uni-grid :column="3" :highlight="true">
         <uni-grid-item v-for="func in funcs" :key="func.id">
           <navigator
@@ -8,7 +8,7 @@
             hover-class="navigator-hover"
           >
             <view class="grid-item-box" style="background-color: #fff">
-              <uni-icons type="image" :size="30" color="#777" />
+              <uni-icons :type="func.icon" :size="30" color="#777" />
               <text class="text">{{ func.function }}</text>
             </view>
           </navigator>
@@ -21,12 +21,12 @@
 <script setup lang="ts">
 import { reactive } from "vue";
 const funcs = reactive([
-  { id: "dice", function: "掷骰子" },
-  { id: "compass", function: "指南针" },
-  { id: "qrcode", function: "生成二维码" },
-  { id: "statistics", function: "字符统计" },
-  { id: "random", function: "随机数字" },
-  { id: "ip", function: "地址查询" },
+  { id: "dice", function: "掷骰子", icon: "help" },
+  { id: "compass", function: "指南针", icon: "navigate" },
+  { id: "qrcode", function: "生成二维码", icon: "smallcircle-filled" },
+  { id: "statistics", function: "字符统计", icon: "compose" },
+  { id: "random", function: "随机数字", icon: "gift" },
+  { id: "ip", function: "地址查询", icon: "location-filled" },
 ]);
 </script>
 
