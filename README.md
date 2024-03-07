@@ -57,4 +57,4 @@ uni-app + scss+ts+vue3
 
 
 
-[其他细节]()
+[其他细节](https://github.com/lingzipeng/uniapp/blob/main/src/static/md/其他细节.md)
