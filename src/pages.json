@@ -69,6 +69,60 @@
 			"style": {
 				"navigationBarTitleText": "震动"
 			}
+		},
+		{
+			"path": "pages/function/dice",
+			"style": {
+				"navigationBarTitleText": "掷骰子"
+			}
+		},
+		{
+			"path": "pages/function/compass",
+			"style": {
+				"navigationBarTitleText": "指南针"
+			}
+		},
+		{
+			"path": "pages/function/qrcode",
+			"style": {
+				"navigationBarTitleText": "二维码"
+			}
+		},
+		{
+			"path": "pages/function/random",
+			"style": {
+				"navigationBarTitleText": "随机数字"
+			}
+		},
+		{
+			"path": "pages/function/ip",
+			"style": {
+				"navigationBarTitleText": "ip地址查询"
+			}
+		},
+		{
+			"path": "pages/function/statistics",
+			"style": {
+				"navigationBarTitleText": "字符统计"
+			}
+		},
+		{
+			"path": "pages/function/read",
+			"style": {
+				"navigationBarTitleText": "文章阅读"
+			}
+		},
+		{
+			"path": "pages/function/eat",
+			"style": {
+				"navigationBarTitleText": "吃什么"
+			}
+		},
+		{
+			"path": "pages/function/muyu",
+			"style": {
+				"navigationBarTitleText": "木鱼"
+			}
 		}
 	],
 	"globalStyle": {

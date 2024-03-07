@@ -21,12 +21,12 @@
 <script setup lang="ts">
 import { reactive } from "vue";
 const funcs = reactive([
-  { id: "article", function: "掷骰子" },
-  { id: "calculator", function: "指南针" },
-  { id: "calendar", function: "生成二维码" },
-  { id: "stopwatch", function: "图像取色" },
-  { id: "friend", function: "随机数字" },
-  { id: "shock", function: "帮助和客服" },
+  { id: "dice", function: "掷骰子" },
+  { id: "compass", function: "指南针" },
+  { id: "qrcode", function: "生成二维码" },
+  { id: "statistics", function: "字符统计" },
+  { id: "random", function: "随机数字" },
+  { id: "ip", function: "地址查询" },
 ]);
 </script>
 

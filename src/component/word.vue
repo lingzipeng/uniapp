@@ -25,7 +25,7 @@ const funcs = reactive([
   { id: "calculator", function: "计算器" },
   { id: "calendar", function: "日历" },
   { id: "stopwatch", function: "倒计时" },
-  { id: "friend", function: "模拟来电" },
+  { id: "call", function: "模拟来电" },
   { id: "shock", function: "手机震动" },
 ]);
 </script>

@@ -40,6 +40,8 @@
     "@types/wechat-miniprogram": "^3.4.3",
     "@uni-helper/uni-app-types": "^0.5.9",
     "force": "^0.0.3",
+    "qrcodejs2": "^0.0.2",
+    "tki-qrcode": "^0.1.6",
     "vue": "^3.2.45",
     "vue-i18n": "^9.1.9"
   },
