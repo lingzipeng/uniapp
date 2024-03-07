@@ -55,6 +55,6 @@ uni-app + scss+ts+vue3
 
 
 
-[评论区](URL)
+[评论区](https://github.com/lingzipeng/uniapp/blob/main/src/static/md/评论区.md)
 
 [其他细节](https://github.com/lingzipeng/uniapp/blob/main/src/static/md/其他细节.md)
