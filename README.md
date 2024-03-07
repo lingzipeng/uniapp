@@ -37,7 +37,9 @@
 
 ![image](https://github.com/lingzipeng/uniapp/blob/main/src/static/pics/Snipaste_2024-03-06_17-50-21.png)
 
-
+等等
 
 ## 功能实现列表
+
+![image](https://github.com/lingzipeng/uniapp/blob/main/src/static/pics/Snipaste_2024-03-07_19-31-27.png)
 
