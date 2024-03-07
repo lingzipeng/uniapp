@@ -1,7 +1,9 @@
 图鸟 UI
 步骤1：
 
+## 项目介绍
 
+实现一个个人工具箱，功能包罗万象。
 
 # 效果图
 
@@ -43,3 +45,8 @@
 
 ![image](https://github.com/lingzipeng/uniapp/blob/main/src/static/pics/Snipaste_2024-03-07_19-31-27.png)
 
+## 技术栈
+
+uni-app + scss+ts+vue3
+
+## 具体功能实现细节示例
