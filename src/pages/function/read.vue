@@ -2,7 +2,7 @@
   <view class="container">
     <uni-icons class="next-article" @click="getNextArticle" type="right" size="30"></uni-icons>
     <view class="title">{{ article.title }}</view>
-    <view class="content">{{ article.content }}</view>
+    <view class="content">{{ article.content}}</view>
   </view>
 </template>
 
@@ -17,6 +17,10 @@ const articles = ref([
   {
     title: "文章标题2",
     content: "文章内容2",
+  },
+  {
+    title: "文章标题3",
+    content: "文章内容3",
   },
   // 其他文章
 ]);
