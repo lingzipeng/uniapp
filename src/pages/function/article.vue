@@ -51,14 +51,6 @@
                 >收起</view
               >
             </view>
-            <view class="evaluateListImg">
-              <view
-                class="evaluateListImgItem"
-                v-for="(itm, ind) in item.imageList"
-                :key="ind"
-              >
-              </view>
-            </view>
             <view class="bottomImg"> </view>
           </view>
         </view>
@@ -100,7 +92,7 @@ const list = ref<ListItem[]>([
     content:
       "大美湛江！！！服务好，景色好，山河锦绣，树木茂盛，空气清新，鸟语花香，人杰地灵服务好，景色好，山河锦绣，树木茂盛，空气清新，鸟语花香，人杰地灵服务好，景色好，山河锦绣，树木茂盛，空气清新，鸟语花香，人杰地灵服务好，景色好，山河锦绣，树木茂盛，空气清新，鸟语花香，人杰地灵服务好，景色好，山河锦绣，树木茂盛，空气清新，鸟语花香，人杰地灵",
     isMore: false,
-    contentAll: false,
+    contentAll: false
   },
 ]);
 
@@ -109,12 +101,13 @@ const newItem = ref({
   score: 2.5,
   time: "2024.01.01",
   content: "",
+  isMore: false,
+  contentAll: false
 });
 
 const addItem = () => {
   list.value.push({ ...newItem.value });
   newItem.value.content = "";
-  getList();
 };
 
 onMounted(() => {
